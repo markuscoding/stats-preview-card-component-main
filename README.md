@@ -10,7 +10,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:https://github.com/markuscoding/3-column-preview-card-component-main
+- Solution URL:https://github.com/markuscoding/stats-preview-card-component-main
 - Live Site URL:https://markuscoding.github.io/3-column-preview-card-component-main/
 
 ### Screenshot
