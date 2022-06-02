@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+:root{
+--Very-dark-blue: hsl(233, 47%, 7%);
+--Dark-desaturated-blue: hsl(244, 38%, 16%);
+--Soft-violet: hsl(277, 64%, 61%);
+--White: hsl(0, 0%, 100%);
+--Slightly_white: hsla(0, 0%, 100%, 0.75);
+--Slightly: hsla(0, 0%, 100%, 0.6);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1.5rem;
+    background-color: var(--Very-dark-blue);
+}
+.card-preview{
+    max-width: 69.5rem;
+    height: 28rem;
+    background-color: var(--Dark-desaturated-blue);
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 0px 1.3rem 1.3rem -1rem rgba(23, 25, 41, 0.203087);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    overflow: hidden;
+}
+.card-images{
+    background-color: rgba(170, 92, 219);
+    background-position: top;
+    background-size: cover;
+}
+.card-images img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0.7;
+    mix-blend-mode: multiply;
+    
+}
+.card-content{
+    width: 36rem;
+    display: flex;
+    flex-direction: column;
+    padding: 4.1rem 4.5rem 4rem ;
+}
+.card-content h1{
+    color: var(--White);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+.card-content h1 strong{
+    color: var(--Soft-violet);
+}
+.card-content p {
+    max-width: 23.2rem;
+    color: var(--Slightly);
+    margin-top: 1.6rem;
+    margin-bottom: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.card-status{
+    max-width: 22rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 0.5rem;
+}
+.card-status .number{
+    color: var(--White);
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 6px;
+    font-family: "Lexend Deca", sans-serif;
+}
+.card-status .name{
+    color: var(--Slightly_white);
+    font-size: 0.8rem;
+    letter-spacing: 0.07rem;
+    text-transform: uppercase;
+    font-family: "Lexend Deca", sans-serif;
+}
+    .attribution { 
+        font-size: 11px;
+        text-align: center;
+}
+    .attribution a {
+         color: hsl(228, 45%, 44%);
+}
